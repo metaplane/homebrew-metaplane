@@ -1,11 +1,11 @@
 class Metaplane < Formula
   desc "Metaplane CLI"
   homepage "https://github.com/metaplane/cli"
-  version "0.1.1"
+  version "0.1.2"
   depends_on arch: :arm64
   
   url "https://cli.metaplane.dev/spm/download/macos-arm64/metaplane", using: :nounzip
-  sha256 "7d8fd363a0ec8eef75a40c5918badbfa717aa2f5b6c9ce42ad3391b434101423"
+  sha256 "233fa676e5c717bf36f13086585c4b6b19baa404b0c4dbfa8ad0b879fd15c4aa"
 
   def install
     bin.install "metaplane"
